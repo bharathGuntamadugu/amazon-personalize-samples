@@ -1,5 +1,4 @@
 # Amazon Personalize Samples
-#testing local chnages
 Notebooks and examples on how to onboard and use various features of Amazon Personalize
 
 ## Getting Started with the Amazon Personalize
