@@ -6,6 +6,10 @@ Notebooks and examples on how to onboard and use various features of Amazon Pers
 
 The [core_use_cases/](core_use_cases/) folder contains detailed examples of the most typical use cases.
 
+## Generative AI
+
+The [generative_ai/](generative_ai/) folder contains examples of combining foundation models with Amazon Personalize.
+
 ## Scalable Operations examples for your Amazon Personalize deployments
 
 The [operations/](operations/) folder contains examples on the following topics:
@@ -19,14 +23,14 @@ The [operations/](operations/) folder contains examples on the following topics:
 * MLOps Data Science SDK
     - This is a project to showcase how to quickly deploy a Personalize Campaign in a fully automated fashion using AWS Data Science SDK. To get started navigate to the [ml_ops_ds_sdk](operations/ml_ops_ds_sdk/) folder and follow the README instructions.
 
+* [Personalization APIs](https://github.com/aws-samples/personalization-apis)
+    - Real-time low latency API framework that sits between your applications and recommender systems such as Amazon Personalize. Provides best practice implementations of response caching, API gateway configurations, A/B testing with [Amazon CloudWatch Evidently](https://docs.aws.amazon.com/cloudwatchevidently/latest/APIReference/Welcome.html), inference-time item metadata, automatic contextual recommendations, and more.
+
 * Streaming Events
     - This is a project to showcase how to quickly deploy an API Layer infront of your Amazon Personalize Campaign and your Event Tracker endpoint. To get started navigate to the [streaming_events](operations/streaming_events/) folder and follow the README instructions.
 
 * Lambda Examples
     - This folder starts with a basic example of integrating `put_events` into your Personalize Campaigns by using Lambda functions processing new data from S3. To get started navigate to the [lambda_examples](operations/lambda_examples/) folder and follow the README instructions.
-
-* Filter Rotation
-    - This [serverless application](operations/filter_rotator/) includes an AWS Lambda function that is executed on a schedule to rotate Personalize filters that use expressions with fixed values that must be changed over time. For example, using a range operator based on a date or time value that is designed to include/exclude items based on a rolling window of time.
 
 * [Personalize Monitor](https://github.com/aws-samples/amazon-personalize-monitor)
     - This project adds monitoring, alerting, a dashboard, and optimization tools for running Amazon Personalize across your AWS environments.
